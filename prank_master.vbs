@@ -1,8 +1,3 @@
-' Developer: Minhas Kamal
-' Shows an unending sequence of annoying messages.
-' Put it in the startup directory (%appdata%\Microsoft\Windows\Start Menu\Programs\Startup)
-' of WindowsOS and kill your subject with annoyance.
-
 DO UNTIL a
 	WScript.Sleep(29999)
 	x=MsgBox("There was a problem detected in your system. Do you want to mount propagation?", 2+16, "Error Notice!!!")
